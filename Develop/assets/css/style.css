@@ -279,11 +279,11 @@ main {
 
 @media screen and (max-width: 769px) {
   .flex-container {
-    flex: none;
     flex-direction: column;
-    min-height: 200px;
   }
   .flex-item {
-    height: 150px;
+    flex: all;
+    min-height: 150px;
   }
+  
 }
