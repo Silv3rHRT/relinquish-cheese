@@ -277,12 +277,15 @@ main {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .flex-container {
     flex-direction: column;
   }
   .flex-item:first-child {
     min-height: 150px;
   }
-  
+  .flex-item: {
+    min-height: 150px;
+  }
+    
 }
