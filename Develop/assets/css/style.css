@@ -234,7 +234,7 @@ main {
 }
 
 .pastel-puzzles {
-  background-image: url(../../../Assets/Transgender_Pride_flag.svg.png);
+  background-image: url(../../../Assets/02-run-buddy.jpg);
 }
 
 .surf-report {
@@ -280,8 +280,9 @@ main {
 @media screen and (max-width: 769px) {
   .flex-container {
     flex-direction: column;
+    min-height: 150px;
   }
   .flex-item {
-    min-height: 150px;
+    height: 150px;
   }
 }
