@@ -284,6 +284,10 @@ main {
     min-height: 200px;
   }
   .flex-item {
-    height: 150px;
+    min-height: 150px;
+  }
+  .flex-item:first-child {
+    flex:none;
+    min-height: 150px;
   }
 }
