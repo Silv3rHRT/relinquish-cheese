@@ -282,6 +282,6 @@ main {
     flex-direction: column;
   }
   .flex-item {
-    height: auto;
+    min-height: 150px;
   }
 }
